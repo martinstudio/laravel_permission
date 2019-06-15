@@ -3,9 +3,9 @@
     <div class="row">
         <div class="col-12">
             <div class="card">
-                <div class="card-header"><i class="fa fa-list"></i> 校色管理
-                    <div class="pull-right">
-                        <a class="d-inline" href="<?php echo e(route('roles.create')); ?>"><i class="fa fa-plus-square text-dark"></i></a>
+                <div class="card-header"><i class="fa fa-list"></i> 角色管理
+                    <div class="d-inline float-right">
+                        <a class="" href="<?php echo e(route('roles.create')); ?>"><i class="fa fa-plus-square text-dark"></i></a>
                     </div>
                 </div>
                 <table id="table" class="table table-striped table-hover mb-0" width="100%">

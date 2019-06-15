@@ -20,7 +20,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['prefix'=>'admin','namespace'=>'Admin'],function (){
-    Route::get('users','UserController@index');
+    Route::get('users','UserController@index')->name('users.index');
     Route::resource('roles','RoleController');
     Route::resource('permissions','PermissionController');
 });

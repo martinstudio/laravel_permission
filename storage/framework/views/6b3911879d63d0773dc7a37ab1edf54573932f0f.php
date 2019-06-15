@@ -4,8 +4,8 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-header"><i class="fa fa-list"></i> 权限管理
-                    <div class="pull-right">
-                        <a class="d-inline" href="<?php echo e(route('permissions.create')); ?>"><i class="fa fa-plus-square text-dark"></i></a>
+                    <div class="float-right">
+                        <a href="<?php echo e(route('permissions.create')); ?>"><i class="fa fa-plus-square text-dark"></i></a>
                     </div>
                 </div>
                 <table id="table" class="table table-striped table-hover mb-0" width="100%">
