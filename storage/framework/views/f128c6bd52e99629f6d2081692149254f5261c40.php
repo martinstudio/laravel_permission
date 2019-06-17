@@ -4,8 +4,8 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-header"><i class="fa fa-list"></i> 新建权限
-                        <div class="pull-right">
-                            <a class="d-inline" href="<?php echo e(route('permissions.index')); ?>"><i class="fa fa-reply-all text-dark"></i></a>
+                        <div class="float-right">
+                            <a href="<?php echo e(route('permissions.index')); ?>"><i class="fa fa-reply-all text-dark"></i></a>
                         </div>
                     </div>
                     <div class="card-body">

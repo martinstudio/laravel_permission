@@ -19,7 +19,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::group(['prefix'=>'admin','namespace'=>'Admin'],function (){
+Route::group(['prefix'=>'admin','namespace'=>'Admin','middleware'=>'auth'],function (){
     Route::get('users','UserController@index')->name('users.index');
     Route::resource('roles','RoleController');
     Route::resource('permissions','PermissionController');
